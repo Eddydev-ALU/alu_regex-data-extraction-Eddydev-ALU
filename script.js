@@ -16,11 +16,11 @@ function extractData() {
     const currencies = text.match(currencyRegex) || [];
 
     // Display results
-    document.getElementById("emails").innerHTML = emails.length > 0 ? `(${emails.length}): ${emails.join(", ")}` : ': <span style="color: red;">None found</span>';
-    document.getElementById("urls").innerHTML = urls.length > 0 ? `(${urls.length}): ${urls.join(", ")}` : ': <span style="color: red;">None found</span>';
-    document.getElementById("phones").innerHTML = phones.length > 0 ? `(${phones.length}): ${phones.join(", ")}` : ': <span style="color: red;">None found</span>';
-    document.getElementById("hashtags").innerHTML = hashtags.length > 0 ? `(${hashtags.length}): ${hashtags.join(", ")}` : ': <span style="color: red;">None found</span>';
-    document.getElementById("currencies").innerHTML = currencies.length > 0 ? `(${currencies.length}): ${currencies.join(", ")}` : ': <span style="color: red;"> None found</span>';
+    document.getElementById("emails").innerHTML = emails.length > 0 ? `<span class="count">(${emails.length})</span>: ${emails.join(", ")}` : ': <span class="none-found">None found</span>';
+    document.getElementById("urls").innerHTML = urls.length > 0 ? `<span class="count">(${urls.length})</span>: ${urls.join(", ")}` : ': <span class="none-found">None found</span>';
+    document.getElementById("phones").innerHTML = phones.length > 0 ? `<span class="count">(${phones.length})</span>: ${phones.join(", ")}` : ': <span class="none-found">None found</span>';
+    document.getElementById("hashtags").innerHTML = hashtags.length > 0 ? `<span class="count">(${hashtags.length})</span>: ${hashtags.join(", ")}` : ': <span class="none-found">None found</span>';
+    document.getElementById("currencies").innerHTML = currencies.length > 0 ? `<span class="count">(${currencies.length})</span>: ${currencies.join(", ")}` : ': <span class="none-found">None found</span>';
 
     // hide the extracted data if there is no data
     const outputDiv = document.querySelector('.output');

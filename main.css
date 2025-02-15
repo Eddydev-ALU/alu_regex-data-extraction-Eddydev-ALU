@@ -45,3 +45,11 @@ button:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 80%;
 }
+.none-found {
+    color: red;
+    font-style: italic;
+}
+.count {
+    color: blue;
+    font-weight: bold;
+}
