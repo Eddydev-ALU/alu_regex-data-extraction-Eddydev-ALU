@@ -16,11 +16,11 @@ function extractData() {
     const currencies = text.match(currencyRegex) || [];
 
     // Display results
-    document.getElementById("emails").textContent = emails.join(", ") || "None found";
-    document.getElementById("urls").textContent = urls.join(", ") || "None found";
-    document.getElementById("phones").textContent = phones.join(", ") || "None found";
-    document.getElementById("hashtags").textContent = hashtags.join(", ") || "None found";
-    document.getElementById("currencies").textContent = currencies.join(", ") || "None found";
+    document.getElementById("emails").innerHTML = emails.length > 0 ? `(${emails.length}): ${emails.join(", ")}` : ': <span style="color: red;">None found</span>';
+    document.getElementById("urls").innerHTML = urls.length > 0 ? `(${urls.length}): ${urls.join(", ")}` : ': <span style="color: red;">None found</span>';
+    document.getElementById("phones").innerHTML = phones.length > 0 ? `(${phones.length}): ${phones.join(", ")}` : ': <span style="color: red;">None found</span>';
+    document.getElementById("hashtags").innerHTML = hashtags.length > 0 ? `(${hashtags.length}): ${hashtags.join(", ")}` : ': <span style="color: red;">None found</span>';
+    document.getElementById("currencies").innerHTML = currencies.length > 0 ? `(${currencies.length}): ${currencies.join(", ")}` : ': <span style="color: red;"> None found</span>';
 
     // hide the extracted data if there is no data
     const outputDiv = document.querySelector('.output');

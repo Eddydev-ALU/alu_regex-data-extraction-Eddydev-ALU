@@ -12,6 +12,7 @@ Technologies:
 
     - Visual Studio Code(IDE)
     - Javascript(Language for regex data extraction)
+    - Html for Markup and CSS for styling 
 
 How to run the codes:
 
