@@ -15,6 +15,6 @@ Technologies:
 
 How to run the codes:
 
-    Step 1: Open the index.html file
+    Step 1: Open the index.html file in the browser
     Step 2: Insert the text you want to extract data from.
-    Step 3: Click extract
+    Step 3: Click extract data

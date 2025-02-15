@@ -22,10 +22,11 @@ function extractData() {
     document.getElementById("hashtags").textContent = hashtags.join(", ") || "None found";
     document.getElementById("currencies").textContent = currencies.join(", ") || "None found";
 
+    // hide the extracted data if there is no data
     const outputDiv = document.querySelector('.output');
     if (emails.length > 0 || urls.length > 0 || phones.length > 0 || hashtags.length > 0 || currencies.length > 0)  {
         outputDiv.style.display = 'block';
     } else {
-        outputDiv.style.display = 'block';
+        outputDiv.style.display = 'none';
     }
 }
