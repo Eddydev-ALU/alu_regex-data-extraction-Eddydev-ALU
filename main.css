@@ -47,6 +47,7 @@ button:hover {
 }
 .none-found {
     color: red;
+    font-weight: lighter;
     font-style: italic;
 }
 .count {
