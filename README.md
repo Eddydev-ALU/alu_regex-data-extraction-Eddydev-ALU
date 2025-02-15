@@ -15,6 +15,6 @@ Technologies:
 
 How to run the codes:
 
-    Step 1: Open terminal
-    Step 2: Navigate to the javascript file.
-    Step 3: Run the Javascript file using this command: node (file.js)
+    Step 1: Open the index.html file
+    Step 2: Insert the text you want to extract data from.
+    Step 3: Click extract
