@@ -1,4 +1,4 @@
-function extractData() {
+function dataExtraction() {
     const text = document.getElementById("inputText").value;
 
     // Regular Expressions

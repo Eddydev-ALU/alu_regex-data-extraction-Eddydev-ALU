@@ -7,18 +7,20 @@
     <title>Data Extractor</title>
 </head>
 <body>
-    <h2>Data Extractor</h2>
-    <textarea id="inputText" placeholder="Add text to extract data here..."></textarea>
-    <br>
-    <button onclick="extractData()">Extract Data</button>
-    <div class="output">
-        <h3>Extracted Data:</h3>
-        <p><strong>Emails</strong><span id="emails"></span></p>
-        <p><strong>URLs</strong><span id="urls"></span></p>
-        <p><strong>Phone Numbers</strong><span id="phones"></span></p>
-        <p><strong>Hashtags</strong><span id="hashtags"></span></p>
-        <p><strong>Currency</strong><span id="currencies"></span></p>
+    <div class="container">
+        <h2>Data Extractor</h2>
+        <textarea id="inputText" placeholder="Add text to extract data here..."></textarea>
+        <br>
+        <button onclick="dataExtraction()">Extract Data</button>
+        <div class="output">
+            <h3>Extracted Data:</h3>
+            <p><strong>Emails</strong><span id="emails"></span></p>
+            <p><strong>URLs</strong><span id="urls"></span></p>
+            <p><strong>Phone Numbers</strong><span id="phones"></span></p>
+            <p><strong>Hashtags</strong><span id="hashtags"></span></p>
+            <p><strong>Currency</strong><span id="currencies"></span></p>
+        </div>
     </div>
-    <script src="script.js"></script>
+ <script src="script.js"></script>
 </body>
 </html>
