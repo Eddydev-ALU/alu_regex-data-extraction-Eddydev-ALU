@@ -19,3 +19,11 @@ How to run the codes:
     Step 1: Open the index.html file in the browser
     Step 2: Insert the text you want to extract data from.
     Step 3: Click extract data
+
+Output Breakdown: 
+
+    - Emails(n): (n) email addresses found in the text.
+    - URLs(n): (n) website URLs detected.
+    - Phone Numbers(n): (n) valid phone numbers extracted.
+    - Hashtags(n): (n) hashtags identified.
+    - Currency(n): (n) currency recognized.
