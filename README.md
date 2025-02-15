@@ -9,6 +9,7 @@ This repository is about a project of extracting required data from hundreds of 
     - Currency Amounts: Match format like $19.99
 
 Technologies:
+
     - Visual Studio Code(IDE)
     - Javascript(Language for regex data extraction)
 
